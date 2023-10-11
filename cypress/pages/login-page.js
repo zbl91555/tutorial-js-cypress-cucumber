@@ -8,7 +8,7 @@ const LOGIN_TEXT = 'LOGIN';
 
 class LoginPage {
   static visit() {
-    cy.visit('https://robotwebdemo.onrender.com/');
+    cy.visit('https://osc.gitee.work/auth/realms/osc/protocol/openid-connect/auth?response_type=code&client_id=one-sso&redirect_uri=https://osc.gitee.work/api/one/rest/v1/users/login/info/ret');
   }
 
 

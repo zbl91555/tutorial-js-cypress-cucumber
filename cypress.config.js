@@ -20,7 +20,7 @@ async function setupNodeEvents(on, config) {
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: "https://robotwebdemo.herokuapp.com/",
+    // baseUrl: "https://robotwebdemo.herokuapp.com/",
     specPattern: "**/*.feature",
     excludeSpecPattern: [
       "*.js",
